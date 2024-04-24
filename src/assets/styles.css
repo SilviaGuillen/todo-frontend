@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    width: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+ul.status-columns {
+    flex-direction: row;
+    font-size: large;
+
+}
+li.status-column {
+    flex: 50%;
+}
+
+.todo-card {
+    border: 5px dotted black;
+    border-radius: 10px;
+    padding: 30px;
+    align-content: center;
+    font-size: medium;
+    background: white;
+    margin-bottom: 10px;
+
+
+}
+.status-column-card {
+    border: dotted #333333;
+    border-radius: 10px;
+    padding: 10px  ;
+    margin: 10px;
+    text-align: center;
+    background: beige;
+
+}
